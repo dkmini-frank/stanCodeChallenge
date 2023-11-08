@@ -32,8 +32,12 @@ const ProgramPage = (): JSX.Element => {
         const handleGetMovieDetail = () => {
             if (backEndData)
                 for (let l = 0; l < backEndData.length; l++) {
-                    if (`${backEndData[l].id}` == localStorage.getItem('currentCard')) {
-                        return backEndData[l];
+                    if (localStorage.getItem('currentCard') === null) {
+                        setErrorStatus(true);
+                    } else {
+                        if (`${backEndData[l].id}` == localStorage.getItem('currentCard')) {
+                            return backEndData[l];
+                        }
                     }
                 }
         };
