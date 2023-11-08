@@ -127,10 +127,6 @@ npm run test
 
 I am using a promise to insead of real ajax call, and set up a 2s time delay to show the loading skeleton
 
-```javascript
-npm run test
-```
-
 ## carousel design solution
 
 First of all, the basic functions of the carousel are all completed. I added the isLoading state and errorState props to the carousel, so when you pass the different props, it will return different UI, and the data of the carousel is passed through parameters too, so that it can be achieved through multiple states of a component. High reusability.
