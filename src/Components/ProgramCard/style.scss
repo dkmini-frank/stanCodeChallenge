@@ -1,0 +1,124 @@
+.program_wrapper{
+    margin-top: 3rem;
+    width: 100%;
+    height: 35rem;
+    > img {
+        width: 19rem;
+        height: 28rem;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 3rem;
+    }
+}
+.program_imageWrapper_skeleto{
+    width: 19rem;
+        height: 28rem;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 3rem;
+        background-color: rgb(67, 60, 60);
+}
+.program_contentWrapper{
+    display: inline-block;
+    height: 35rem;
+    width: 70rem;
+    margin-left: 6rem;
+    color: white;
+    overflow: hidden;
+    
+    >h1 {
+        font-size: 5rem;
+    }
+    >h2{
+        font-size: 2rem;
+    }
+    >p{
+        font-size: 2rem;
+        line-height: 3rem;
+        padding-top: 3rem;
+    }
+}
+.program_contentWrapper_skeleto{
+    display: inline-block;
+    margin-left: 6rem;
+}
+.program_content_skeletoOne{
+    width: 16rem;
+    height: 3.5rem;
+    background-color: rgb(67, 60, 60);
+}
+.program_content_skeletoTwo{
+        width: 37rem;
+        height: 2rem;
+        background-color: rgb(67, 60, 60);
+        margin-top: 1rem;
+}
+.program_content_skeletoThree{
+        width: 60rem;
+        height: 12rem;
+        background-color: rgb(67, 60, 60);
+        margin-top: 1rem;
+}
+.program_error{
+    font-size: 2rem;
+    color:#5e5e5e;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .program_wrapper {
+            margin-top: 3rem;
+            width: 100%;
+            height: 35rem;
+    
+            >img {
+                width: 10rem;
+                height: 20rem;
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 3rem;
+            }
+        }
+    .program_contentWrapper {
+            display: inline-block;
+            height: 25rem;
+            width: 40rem;
+            margin-left: 6rem;
+            color: white;
+            overflow: hidden;
+    
+            >h1 {
+                font-size: 2rem;
+            }
+    
+            >h2 {
+                font-size: 1.5rem;
+            }
+    
+            >p {
+                font-size: 1.5rem;
+                line-height: 3rem;
+                padding-top: 3rem;
+            }
+        }
+            .program_content_skeletoOne {
+                    width: 10rem;
+                    height: 3.5rem;
+                    background-color: rgb(67, 60, 60);
+            }
+        
+            .program_content_skeletoTwo {
+                    width: 15rem;
+                    height: 2rem;
+                    background-color: rgb(67, 60, 60);
+                    margin-top: 1rem;
+            }
+        
+            .program_content_skeletoThree {
+                    width: 30rem;
+                    height: 12rem;
+                    background-color: rgb(67, 60, 60);
+                    margin-top: 1rem;
+            }
+}

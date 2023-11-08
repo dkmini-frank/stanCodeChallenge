@@ -1,0 +1,25 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "entry",
+                "targets": {
+                    "node": "current"
+                },
+                "corejs": {
+                    "version": "3.20"
+                }
+            }
+        ],
+        "@babel/preset-react",
+        "@babel/preset-typescript"
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-transform-runtime",
+        "macros"
+    ]
+}
